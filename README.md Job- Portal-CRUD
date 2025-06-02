@@ -1,0 +1,63 @@
+# UnUnemployed - Job Portal (MERN Stack)
+
+This project is a job portal application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It allows job seekers to register, search for jobs, and apply, while recruiters can post jobs, search for candidates, and manage applications. The system includes full CRUD functionality for job postings and user interactions.
+
+## Features
+
+* User registration and authentication (JWT)
+* Role-based access for job seekers and recruiters
+* Job posting, updating, deletion, and listing
+* Job application management
+* MongoDB for data storage
+* Responsive frontend with React
+
+## Tech Stack
+
+* **Frontend:** React, React Router
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Authentication:** JSON Web Tokens (JWT)
+* **API Type:** RESTful API
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/priyankayadav33/Job-Portal-CRUD.git
+   cd Job-Portal-CRUD
+   ```
+
+2. Install backend dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Navigate to the frontend folder and install frontend dependencies:
+
+   ```
+   cd client
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory and add the following:
+
+   ```
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. Start the development server:
+
+   ```
+   npm run dev
+   ```
+
+## License
+
+This project is intended for educational and learning purposes. For original licensing and contributions, please refer to the [GitHub repository](https://github.com/priyankayadav33/Job-Portal-CRUD).
+
+---
+
+If you want me to help tailor it further, just say!
